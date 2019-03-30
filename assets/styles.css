@@ -1,0 +1,73 @@
+*{
+	padding:  0px;
+	margin: 0px;
+}
+
+#seleccion-1{
+	width: 100vw;
+	height: 100vh;
+	background: lightblue;
+	text-align: center;
+}
+
+#seleccion-2{
+	width: 100vw;
+	height: 100vh;
+	background: grey;
+	text-align: center;
+}
+
+.conte-personajes{
+	width: 900px;
+	height: 300px;
+	margin:auto;
+}
+
+.personaje{
+	display: none;
+}
+
+	h1{ padding-bottom: 30px; }
+
+	.personaje-1, .personaje-2, .personaje-3{
+		width: 250px;
+		height: 300px;
+		background: yellow;
+		margin: 5px;
+		display: inline-flex;
+		cursor: pointer;;
+	}
+
+	
+
+
+
+	.sp-rd-1, .sp-rd-2, .sp-rd-3{
+		width: 100px;
+		height: 100px;
+		display: inline-block;
+	}
+
+	.img-1{
+		width: 150px;
+		vertical-align: middle;;
+	}
+
+
+	label{
+		display: block;;
+	}
+
+
+#resultado{
+	width:100vw;
+	height: 100vh;
+}
+	
+	.res-per-1{
+		width: 50vw;
+		height: auto;
+		background: purple;
+	}
+	.res-per-2{}
+	
