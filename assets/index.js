@@ -55,7 +55,7 @@ function juegoCartas(valorSeleccion,valorDosSeleccion){
 	cart1.classList.add('perdedorClass');
 	textoResultado.innterHTML = 'Ganaste';
 }
-  
+     
 
 }
 
