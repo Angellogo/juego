@@ -3,6 +3,7 @@
 <head>
 	<title>The regular show fight</title>
 	<link rel="stylesheet" type="text/css" href="assets/styles.css">
+	<link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
 </head>
 <body>
 
@@ -11,6 +12,8 @@
 <section id="seleccion-1">
 
 	<form id="formularioUno">
+
+		<p>Jugador 1: Selecciona tu personaje</p>
 
 	<div class="conte-personajes">	
 
@@ -36,22 +39,25 @@
 
 <section id="seleccion-2">
 	<form id="formularioDos">
+
+		<p>Jugador 2: Selecciona tu personaje</p>
+
 	<div class="conte-personajes">
 		<label for="personaje-1-2" class="sp-rd-1">
 			<img src="img/3.png" class="img-1">
 		</label>
-		<input type="radio" name="personaje" id="personaje-1-2" class="personaje-1" value="1" onclick="seleccion()" value="1">
+		<input type="radio" name="personaje" id="personaje-1-2" class="personaje-1" value="3" onclick="seleccion2()" value="1">
 
 
 		<label for="personaje-2-2" class="sp-rd-2">
 			<img src="img/1.png" class="img-1">
 		</label>
-		<input type="radio" name="personaje" id="personaje-2-2" class="personaje-2" value="2" onclick="seleccion()" value="1">
+		<input type="radio" name="personaje" id="personaje-2-2" class="personaje-2" value="1" onclick="seleccion2()" value="1">
 
 		<label for="personaje-3-2" class="sp-rd-3">
 			<img src="img/2.png" class="img-1">
 		</label>
-		<input type="radio" name="personaje" id="personaje-3-2" class="personaje-3" value="3" onclick="seleccion()" value="1">
+		<input type="radio" name="personaje" id="personaje-3-2" class="personaje-3" value="2" onclick="seleccion2()" value="1">
 
 	</div>
 	</form>
@@ -61,8 +67,12 @@
 
 <section id="resultado">
 	<h2 id="textoResultado"></h2>
-	<div id="res1"></div>
-	<div id="res2"></div>	
+		<div class="resultado-final-box">
+			<img src="" id="res1">
+		</div>
+		<div class="resultado-final-box">
+			<img src="" id="res2">		
+		</div>	
 </section>
 
 <script type="text/javascript" src="assets/index.js"></script>
