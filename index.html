@@ -17,20 +17,27 @@
 
 	<div class="conte-personajes">	
 
-		<label for="personaje-1" class="sp-rd-1">
-			<img src="img/1.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" class="personaje-1" id="personaje-1" onclick="seleccion()" value="1">
+		<div class="caja-hov" style="background: url('img/papel.png') no-repeat">
+			<label for="personaje-1" class="sp-rd-1">
+				<img src="img/1.png" class="img-1">
+			</label>
+			<input type="radio" name="personaje" class="personaje-1" id="personaje-1" onclick="seleccion()" value="1">
+		</div>
 
-		<label for="personaje-2" class="sp-rd-2">
-			<img src="img/2.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" class="personaje-2" id="personaje-2" onclick="seleccion()" value="2" >
 
-		<label for="personaje-3" class="sp-rd-3"> 
-			<img src="img/3.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" class="personaje-3" id="personaje-3" onclick="seleccion()" value="3">
+		<div class="caja-hov" style="background: url('img/piedra.png') no-repeat">
+			<label for="personaje-2" class="sp-rd-2">
+				<img src="img/2.png" class="img-1">
+			</label>
+			<input type="radio" name="personaje" class="personaje-2" id="personaje-2" onclick="seleccion()" value="2" >
+		</div>
+
+		<div class="caja-hov" style="background: url('img/tijeras.png') no-repeat">
+			<label for="personaje-3" class="sp-rd-3"> 
+				<img src="img/3.png" class="img-1" style="width: 185px;">
+			</label>
+			<input type="radio" name="personaje" class="personaje-3" id="personaje-3" onclick="seleccion()" value="3">
+		</div>
 	</div>
 
 	</form>
@@ -43,21 +50,28 @@
 		<p>Jugador 2: Selecciona tu personaje</p>
 
 	<div class="conte-personajes">
-		<label for="personaje-1-2" class="sp-rd-1">
-			<img src="img/3.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" id="personaje-1-2" class="personaje-1" value="3" onclick="seleccion2()" value="1">
+
+		<div class="caja-hov" style="background: url('img/tijeras2.png') no-repeat">
+			<label for="personaje-1-2" class="sp-rd-1">
+				<img src="img/3.png" class="img-1" style="width: 185px;">
+			</label>
+			<input type="radio" name="personaje" id="personaje-1-2" class="personaje-1" value="3" onclick="seleccion2()" value="1">
+		</div>
+
+		<div class="caja-hov" style="background: url('img/papel2.png') no-repeat">
+			<label for="personaje-2-2" class="sp-rd-2">
+				<img src="img/1.png" class="img-1">
+			</label>
+			<input type="radio" name="personaje" id="personaje-2-2" class="personaje-2" value="1" onclick="seleccion2()" value="1">
+		</div>
 
 
-		<label for="personaje-2-2" class="sp-rd-2">
-			<img src="img/1.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" id="personaje-2-2" class="personaje-2" value="1" onclick="seleccion2()" value="1">
-
-		<label for="personaje-3-2" class="sp-rd-3">
-			<img src="img/2.png" class="img-1">
-		</label>
-		<input type="radio" name="personaje" id="personaje-3-2" class="personaje-3" value="2" onclick="seleccion2()" value="1">
+		<div class="caja-hov" style="background: url('img/piedra2.png') no-repeat">
+			<label for="personaje-3-2" class="sp-rd-3">
+				<img src="img/2.png" class="img-1">
+			</label>
+			<input type="radio" name="personaje" id="personaje-3-2" class="personaje-3" value="2" onclick="seleccion2()" value="1">
+		</div>
 
 	</div>
 	</form>
@@ -73,6 +87,7 @@
 		<div class="resultado-final-box">
 			<img src="" id="res2">		
 		</div>	
+		<button id="again" onclick="location.reload()">Jugar de nuevo</button>
 </section>
 
 <script type="text/javascript" src="assets/index.js"></script>

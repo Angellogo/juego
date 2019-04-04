@@ -48,11 +48,38 @@ body{
 		height: 100px;
 		display: inline-block;
 	}
+	
+	.caja-hov{
+		width: 200px;
+		height: 200px;
+		background:red;
+		position: relative;
+		display: inline-flex;
+		margin: 45px 20px;
+	}
+
+	.img-1:hover{
+		-webkit-transition: all .2s ease;
+		-webkit-transform: scale(1.5);
+		opacity: 0;
+	}
 
 	.img-1{
 		width: 150px;
-		vertical-align: middle;;
+		vertical-align: middle;
+		position: absolute;
+		top:0px;
+		left: 0px;
+		z-index: 10;
+		-webkit-transition: all .2s ease;
 	}
+
+	.elementos{
+		position: absolute;
+		top:0px;
+		left: 0px;}
+
+
 
 
 	label{
@@ -62,16 +89,14 @@ body{
 		cursor: pointer;
 	}
 
-	label:hover{
-		-webkit-transition: all .2s ease;
-		-webkit-transform: scale(1.5)
-	}
+	
 
 
 #resultado{
 	width:100vw;
 	height: 100vh;
 	display: inline-flex;
+	position: relative;
 }
 	
 	#res1, #res2{
@@ -133,9 +158,26 @@ p{
 
 
 
+#again{
+	width: 190px;
+    height: 40px;
+    border-radius: 3px;
+    display: block;
+    position: absolute;
+    left: 45vw;
+    bottom: 30vh;
+    border: none;
+    background: #f95151;
+    color: #fff;
+	font-size: 20px;
+	cursor: pointer;
+	-webkit-transition: all .2s ease;
+	opacity: 1;
+}
 
-
-
-
+#again:hover{
+	opacity: .6;
+	-webkit-transition: all .2s ease;
+}
 
 	
